@@ -1,0 +1,17 @@
+<assembly>
+    <id>with-dependencies</id>
+    <formats>
+        <format>zip</format>
+    </formats>
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <files>
+    	<file>
+    		<source>../phonegap/target/phonegap-0.0.1.jar</source>
+    		 <outputDirectory>pg-lib</outputDirectory>
+    	</file>
+    	<file>
+    		<source>target/phonegap-camera-0.0.1.jar</source>
+    		 <outputDirectory>pg-lib</outputDirectory>
+    	</file>
+    </files>
+</assembly>
